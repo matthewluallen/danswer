@@ -12,3 +12,4 @@ torch==2.0.1
 transformers==4.39.2
 uvicorn==0.21.1
 voyageai==0.2.3
+aiohttp>=3.10.11 # not directly required, pinned by Snyk to avoid a vulnerability
